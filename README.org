@@ -1,0 +1,68 @@
+#+title: README
+#+author: tmax818
+#+startup: num
+
+* getting started
+** c is a language for small, fast programs
+*** the way c works
+** but what does a complete c program look like?
+*** c programs normally begin with a comment
+*** next comes the **include** section
+
+#+begin_src c
+#include <stdio.h>
+#+end_src
+*** the last thing in a source file are functions
+** but how do you run programs?
+** two types of commands
+*** do something
+*** do something only if something is true
+** card counting? in c?
+* memory and pointers
+** strings
+* creating small tools
+* using multiple source files:
+** C lab 1
+* structs, unions, and bitfields
+* data structures and dynamic memory
+* advanced functions
+* static and dynamic libraries
+** C lab 2
+* processes and system calls
+* interprocess communication
+* sockets and networking
+* threads
+** C lab 3
+* leftovers
+** top ten
+*** operators
+*** preprocessor directives
+*** the *static* keyword
+*** how big stuff is
+*** automated testing
+*** more on gcc
+*** more on make
+*** development tools
+*** creating guis
+*** reference material
+** revision roundup
+*** basics
+-  simple statements are commands
+-  block statements are surrounded by `{` and `}`
+-  if statements run code if something is true
+-  switch statements efficiently check for multiple values of a variable
+*** pointers and memory
+*** strings
+*** data streams
+*** data types
+*** multiple files
+*** structs
+*** unions and bitfields
+*** data structures
+*** dynamic memory
+*** advanced functions
+*** static and dynamic libraries
+*** processes and communication
+*** sockets and networking
+*** threads
+
